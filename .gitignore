@@ -1,0 +1,18 @@
+# Rust build artifacts
+target/
+**/target/
+
+# Environment files / secrets (keep .env.example)
+.env
+*.env
+
+# Node
+node_modules/
+
+# OS junk
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
